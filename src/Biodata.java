@@ -1,4 +1,5 @@
-import java.lang.String;
+import java.lang.*;
+
 
 public class Biodata {
 
@@ -11,9 +12,6 @@ public class Biodata {
         System.out.println("---------------------------------------");
         System.out.println(names[0]);
         System.out.println(names[9]);
-
-
-
     }
 
 }
