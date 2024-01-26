@@ -12,8 +12,6 @@ public class CheckEquals {
         }
         else{
             System.out.println("Not Equal");
-            System.out.println("");
-
         }
         // Assign values of variables 'a' and 'b' as 55 and 70 respectively and then check if
         // both the conditions 'a < 50' and 'a < b' are true.
@@ -44,8 +42,6 @@ public class CheckEquals {
         int age=20;
         String result_msg = age>=18 ? "Vote" : "No Vote";
         System.out.println(result_msg);
-
-
 
     }
 }
