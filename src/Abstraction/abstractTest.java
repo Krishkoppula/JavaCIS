@@ -29,7 +29,7 @@ class C extends B {
     }
 }
 
-public  class Test{
+public  class abstractTest{
     public static void main(String[] args) {
         A p1 = new B();
         p1.javaClass("Kasi");
@@ -41,3 +41,6 @@ public  class Test{
         p2.display(); // This will call the inherited display method from A
     }
 }
+
+
+

@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89bd6882-7a29-4e98-b3b7-b3119818b13f" name="Changes" comment="Java Training Friday">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstraction/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstraction/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstraction/abstractTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +65,10 @@
     "Application.Test (2).executor": "Run",
     "Application.Test (3).executor": "Run",
     "Application.Test (4).executor": "Run",
+    "Application.Test (5).executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Worker.executor": "Run",
+    "Application.m1.executor": "Run",
     "Application.test (1).executor": "Debug",
     "Application.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -77,20 +78,7 @@
     "onboarding.tips.debug.path": "C:/Users/saikr/IdeaProjects/Java Training/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Abstraction.Test" />
-      <module name="Java Training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Abstraction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.abstractTest">
     <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Abstraction.Test" />
       <module name="Java Training" />
@@ -130,6 +118,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="abstractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstraction.abstractTest" />
+      <module name="Java Training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="m1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Abstraction.m1" />
       <module name="Java Training" />
@@ -145,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.abstractTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.m1" />
         <item itemvalue="Application.Test (5)" />
         <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.Test (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706929200449</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Java Training Friday">
+      <option name="closed" value="true" />
+      <created>1706930421275</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706930421275</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
