@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89bd6882-7a29-4e98-b3b7-b3119818b13f" name="Changes" comment="Java Training">
-      <change afterPath="$PROJECT_DIR$/src/Employee1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Employee_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstraction/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstraction/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RomanToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RomanToIntegerConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CheckEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheckEquals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +64,11 @@
     "Application.Main.executor": "Run",
     "Application.MathOperations.executor": "Run",
     "Application.Pattern.executor": "Run",
+    "Application.RomanToIntegerConverter.executor": "Run",
     "Application.StudentInfo.executor": "Run",
     "Application.Worker.executor": "Run",
+    "Application.test (1).executor": "Debug",
+    "Application.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -76,28 +76,7 @@
     "onboarding.tips.debug.path": "C:/Users/saikr/IdeaProjects/Java Training/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Pattern">
-    <configuration name="Employee1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Employee1" />
-      <module name="Java Training" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Employee_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Employee_2" />
-      <module name="Java Training" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Java Training" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pattern" />
       <module name="Java Training" />
@@ -105,20 +84,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Worker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Worker" />
+    <configuration name="RomanToIntegerConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RomanToIntegerConverter" />
       <module name="Java Training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstraction.Test" />
+      <module name="Java Training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstraction.test" />
+      <module name="Java Training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstraction.test" />
+      <module name="Java Training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.test (1)" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.RomanToIntegerConverter" />
         <item itemvalue="Application.Pattern" />
-        <item itemvalue="Application.Worker" />
-        <item itemvalue="Application.Employee_2" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Employee1" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705679402963</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Java Training">
+      <option name="closed" value="true" />
+      <created>1706285841631</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706285841631</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,5 +206,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java Training" />
     <option name="LAST_COMMIT_MESSAGE" value="Java Training" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RomanToIntegerConverter.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
