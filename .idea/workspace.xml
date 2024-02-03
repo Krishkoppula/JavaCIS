@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bd6882-7a29-4e98-b3b7-b3119818b13f" name="Changes" comment="Java Training">
-      <change afterPath="$PROJECT_DIR$/src/Abstraction/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstraction/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RomanToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RomanToIntegerConverter.java" afterDir="false" />
+    <list default="true" id="89bd6882-7a29-4e98-b3b7-b3119818b13f" name="Changes" comment="Java Training Friday">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstraction/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstraction/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +62,11 @@
     "Application.Pattern.executor": "Run",
     "Application.RomanToIntegerConverter.executor": "Run",
     "Application.StudentInfo.executor": "Run",
+    "Application.Test (1).executor": "Run",
+    "Application.Test (2).executor": "Run",
+    "Application.Test (3).executor": "Run",
+    "Application.Test (4).executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.Worker.executor": "Run",
     "Application.test (1).executor": "Debug",
     "Application.test.executor": "Run",
@@ -77,16 +78,41 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.Test">
-    <configuration name="Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pattern" />
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstraction.Test" />
       <module name="Java Training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToIntegerConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RomanToIntegerConverter" />
+    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstraction.Test" />
       <module name="Java Training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstraction.Test" />
+      <module name="Java Training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,21 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Abstraction.test" />
-      <module name="Java Training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Abstraction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Abstraction.test" />
+    <configuration name="m1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstraction.m1" />
       <module name="Java Training" />
       <extension name="coverage">
         <pattern>
@@ -133,10 +146,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.test (1)" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.RomanToIntegerConverter" />
-        <item itemvalue="Application.Pattern" />
+        <item itemvalue="Application.m1" />
+        <item itemvalue="Application.Test (5)" />
+        <item itemvalue="Application.Test (4)" />
+        <item itemvalue="Application.Test (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706285841631</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Java Training Friday">
+      <option name="closed" value="true" />
+      <created>1706929200449</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706929200449</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,7 +226,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java Training" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Training" />
+    <MESSAGE value="Java Training Friday" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Training Friday" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
