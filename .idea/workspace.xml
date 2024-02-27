@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89bd6882-7a29-4e98-b3b7-b3119818b13f" name="Changes" comment="Java Training Friday">
-      <change afterPath="$PROJECT_DIR$/src/Abstraction/abstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstraction/IEmp1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstraction/IEmpolyee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstraction/TestCloneIF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/HashmapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptionserrors/Patience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptionserrors/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/StringBufferAndBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/PatientException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/UnimplementedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,6 +63,9 @@
     "Application.Employee1.executor": "Run",
     "Application.Employee_2.executor": "Run",
     "Application.Employeee.executor": "Run",
+    "Application.HashmapDemo.executor": "Run",
+    "Application.IEmp1.executor": "Run",
+    "Application.IEmpolyee.executor": "Run",
     "Application.InchesToMeters.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main (2).executor": "Run",
@@ -60,6 +73,8 @@
     "Application.MathOperations.executor": "Run",
     "Application.Pattern.executor": "Run",
     "Application.RomanToIntegerConverter.executor": "Run",
+    "Application.Runner.executor": "Run",
+    "Application.StringBufferAndBuilder.executor": "Run",
     "Application.StudentInfo.executor": "Run",
     "Application.Test (1).executor": "Run",
     "Application.Test (2).executor": "Run",
@@ -68,6 +83,8 @@
     "Application.Test (5).executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Worker.executor": "Run",
+    "Application.abstractTest (1).executor": "Run",
+    "Application.abstractTest.executor": "Run",
     "Application.m1.executor": "Run",
     "Application.test (1).executor": "Debug",
     "Application.test.executor": "Run",
@@ -78,9 +95,22 @@
     "onboarding.tips.debug.path": "C:/Users/saikr/IdeaProjects/Java Training/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.abstractTest">
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Abstraction.Test" />
+  <component name="RunManager" selected="Application.HashmapDemo">
+    <configuration name="HashmapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.HashmapDemo" />
+      <module name="Java Training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IEmp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstraction.IEmp1" />
       <module name="Java Training" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Abstraction.Test" />
+    <configuration name="IEmpolyee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstraction.IEmpolyee" />
       <module name="Java Training" />
       <extension name="coverage">
         <pattern>
@@ -105,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Abstraction.Test" />
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exceptionserrors.Runner" />
       <module name="Java Training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Abstraction.*" />
+          <option name="PATTERN" value="Exceptionserrors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,25 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="abstractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Abstraction.abstractTest" />
+    <configuration name="StringBufferAndBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.StringBufferAndBuilder" />
       <module name="Java Training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Abstraction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="m1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Abstraction.m1" />
-      <module name="Java Training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Abstraction.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.abstractTest" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.m1" />
-        <item itemvalue="Application.Test (5)" />
-        <item itemvalue="Application.Test (4)" />
+        <item itemvalue="Application.HashmapDemo" />
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.StringBufferAndBuilder" />
+        <item itemvalue="Application.IEmp1" />
+        <item itemvalue="Application.IEmpolyee" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706930421275</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Java Training Friday">
+      <option name="closed" value="true" />
+      <created>1706930800761</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706930800761</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +270,16 @@
           <url>file://$PROJECT_DIR$/src/RomanToIntegerConverter.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Abstraction/abstractTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Abstraction/abstractTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
